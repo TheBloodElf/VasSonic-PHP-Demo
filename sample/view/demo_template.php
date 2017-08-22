@@ -63,8 +63,6 @@
                 }
             }
         })
-        //主动调起客户端getDiffData方法，让客户端得到diff数据返回到本前端
-        bridge.callHandler('getDiffData')
     })
 </script>
 </body>
